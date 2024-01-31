@@ -17,7 +17,7 @@ matches:
   # But matches can also be dynamic:
 
   # Print the current date
-  - trigger: ";date"
+  - trigger: ":date"
     replace: "{{mydate}}"
     vars:
       - name: mydate
@@ -26,7 +26,7 @@ matches:
           format: "%Y-%m-%d"
 
   # Print the output of a shell command
-  - trigger: ";shell"
+  - trigger: ":shell"
     replace: "{{output}}"
     vars:
       - name: output
