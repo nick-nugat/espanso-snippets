@@ -1,0 +1,17 @@
+matches:
+  - trigger: ";ts"
+    replace: "{{time}}"
+    vars:
+      - name: time
+        type: date
+        params:
+          format: "%H:%M"
+  - trigger: "@today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "[[%Y-%m-%d]]"
+  - trigger: ':score:'
+    replace: "\U0001F4AF"
