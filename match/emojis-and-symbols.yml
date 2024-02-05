@@ -1,4 +1,17 @@
 matches:
-  - trigger: ":skull:"
+
+  # my commonly used emojis
+  - trigger: ";sob"
+    replace: "😭"
+
+  - trigger: ";skull"
     replace: "💀"
+
+  - trigger: ";shrug"
+    replace: "🤷‍♂️"
+  
+  - trigger: ";heart"
+    replace: "♡"
+
+  
   
