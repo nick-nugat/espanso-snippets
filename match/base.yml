@@ -25,6 +25,9 @@ matches:
         params:
           format: "%Y-%m-%d"
 
+  # - trigger: "->"
+  #  replace: "→"
+
   # Print the output of a shell command
   # - trigger: ":shell"
   #   replace: "{{output}}"

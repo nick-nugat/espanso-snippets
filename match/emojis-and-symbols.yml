@@ -1,17 +1,22 @@
 matches:
-
   # my commonly used emojis
   - trigger: ";sob"
     replace: "😭"
-
   - trigger: ";skull"
     replace: "💀"
-
   - trigger: ";shrug"
     replace: "🤷‍♂️"
-  
   - trigger: ";heart"
     replace: "♡"
 
-  
-  
+  # colored square (maybe for mood tracking)
+  - trigger: ";rsq"
+    replace: "🟥"
+  - trigger: ";osq"
+    replace: "🟧"
+  - trigger: ";ysq"
+    replace: "🟨"
+  - trigger: ";gsq"
+    replace: "🟩"
+  - trigger: ";bsq"
+    replace: "🟦"
