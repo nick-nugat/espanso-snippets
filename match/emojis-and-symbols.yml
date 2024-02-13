@@ -8,15 +8,37 @@ matches:
     replace: "🤷‍♂️"
   - trigger: ";heart"
     replace: "♡"
+  - trigger: ";eyes"
+    replace: "👀"
+  - trigger: ";moyai"
+    replace: "🗿"
+  - trigger: ";clown"
+    replace: "🤡"
+  - trigger: ";standing"
+    replace: "🧍"
 
-  # colored square (maybe for mood tracking)
-  - trigger: ";rsq"
+# colored squares for mood tracking
+  - triggers: 
+    - ";rsq"
+    - ";red"
     replace: "🟥"
-  - trigger: ";osq"
+
+  - triggers: 
+    - ";osq"
+    - ;orange
     replace: "🟧"
-  - trigger: ";ysq"
+
+  - triggers: 
+    - ";ysq"
+    - ;yellow
     replace: "🟨"
-  - trigger: ";gsq"
+
+  - triggers: 
+    - ";gsq"
+    - ;green
     replace: "🟩"
-  - trigger: ";bsq"
+
+  - triggers: 
+    - ";bsq"
+    - ;blue
     replace: "🟦"
