@@ -16,6 +16,8 @@ matches:
     replace: "🤡"
   - trigger: ";standing"
     replace: "🧍"
+  - trigger: ";thinking"
+    replace: "🤔"
 
 # colored squares for mood tracking
   - triggers: 
