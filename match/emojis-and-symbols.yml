@@ -18,29 +18,23 @@ matches:
     replace: "🧍"
   - trigger: ";thinking"
     replace: "🤔"
+  - trigger: ";books"
+    replace: "📚"
+  - trigger: ";handshake"
+    replace: "🤝"
+  - trigger: ";sparkles"
+    replace: "✨"
+  - trigger: ";crossed"
+    replace: "🤞"
 
 # colored squares for mood tracking
-  - triggers: 
-    - ";rsq"
-    - ";red"
+  - trigger: ";rsq"
     replace: "🟥"
-
-  - triggers: 
-    - ";osq"
-    - ;orange
+  - trigger: ";osq"
     replace: "🟧"
-
-  - triggers: 
-    - ";ysq"
-    - ;yellow
+  - trigger: ";ysq"
     replace: "🟨"
-
-  - triggers: 
-    - ";gsq"
-    - ;green
+  - trigger: ";gsq"
     replace: "🟩"
-
-  - triggers: 
-    - ";bsq"
-    - ;blue
+  - trigger: ";bsq"
     replace: "🟦"
