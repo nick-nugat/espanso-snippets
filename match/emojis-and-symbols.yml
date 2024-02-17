@@ -26,6 +26,12 @@ matches:
     replace: "✨"
   - trigger: ";crossed"
     replace: "🤞"
+  - trigger: ";nerd"
+    replace: "🤓"
+  - trigger: ";pray"
+    replace: "🙏"
+  - trigger: ";worship"
+    replace: "🛐"
 
 # colored squares for mood tracking
   - trigger: ";rsq"
