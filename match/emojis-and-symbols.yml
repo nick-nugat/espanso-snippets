@@ -32,6 +32,8 @@ matches:
     replace: "🙏"
   - trigger: ";worship"
     replace: "🛐"
+  - trigger: ";fear"
+    replace: "😨"
 
 # colored squares for mood tracking
   - trigger: ";rsq"
