@@ -44,3 +44,25 @@ matches:
     replace: "🟩"
   - trigger: ";bsq"
     replace: "🟦"
+
+# star ratings for books (symbols)
+  - triggers: 
+    - ";1-star"
+    - ";1 star"
+    replace: "★☆☆☆☆"
+  - triggers: 
+    - ";2-stars"
+    - ";2 stars"
+    replace: "★★☆☆☆"
+  - triggers: 
+    - ";3-stars"
+    - ";3 stars"
+    replace: "★★★☆☆"
+  - triggers: 
+    - ";4-stars"
+    - ";4 stars"
+    replace: "★★★★☆"
+  - triggers: 
+    - ";5-stars"
+    - ";5 stars"
+    replace: "★★★★★"
