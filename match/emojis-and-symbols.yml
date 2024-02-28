@@ -35,6 +35,9 @@ matches:
   - trigger: ";fear"
     replace: "😨"
 
+  - trigger: ";thought"
+    replace: "💭"
+    
 # colored squares for mood tracking
   - trigger: ";rsq"
     replace: "🟥"
