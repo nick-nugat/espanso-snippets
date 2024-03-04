@@ -45,6 +45,11 @@ matches:
   - trigger: ";people"
     replace: "🫂"
 
+  - triggers: 
+     - ";fire"
+     - ";hot"
+    replace: "🔥"
+
 # colored squares for mood tracking
   - trigger: ";rsq"
     replace: "🟥"
