@@ -34,10 +34,17 @@ matches:
     replace: "🛐"
   - trigger: ";fear"
     replace: "😨"
-
+    
   - trigger: ";thought"
     replace: "💭"
-    
+
+  - trigger: ";person"
+    replace: "👤"
+  - trigger: ";people"
+    replace: "👥"
+  - trigger: ";people"
+    replace: "🫂"
+
 # colored squares for mood tracking
   - trigger: ";rsq"
     replace: "🟥"
