@@ -34,6 +34,8 @@ matches:
     replace: "🛐"
   - trigger: ";fear"
     replace: "😨"
+  - trigger: ";scream"
+    replace: "😱"
     
   - trigger: ";thought"
     replace: "💭"
@@ -49,7 +51,6 @@ matches:
      - ";fire"
      - ";hot"
     replace: "🔥"
-
 # colored squares for mood tracking
   - trigger: ";rsq"
     replace: "🟥"
