@@ -51,6 +51,12 @@ matches:
      - ";fire"
      - ";hot"
     replace: "🔥"
+
+  - trigger: ";inbox"
+    replace: "📩"
+  - trigger: ";bookmark"
+    replace: "🔖"
+
 # colored squares for mood tracking
   - trigger: ";rsq"
     replace: "🟥"
