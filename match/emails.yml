@@ -1,0 +1,23 @@
+matches:
+
+# emails
+- triggers: 
+  - ";one.e"
+  - ";ost.e"
+  - ";onestoptube"
+  replace: "onestoptube@gmail.com"
+
+- trigger: ";nhn.e"
+  replace: "nicholas.hoang.nguyen@gmail.com"
+
+- trigger: ";nnc.e"
+  replace: "nicholas.nguyen.channel@gmail.com"
+
+- trigger: ";cs.e"
+  replace: "nicholas.nguyen.cs@gmail.com"
+
+- trigger: ";mc.e"
+  replace: "nnguy234@montgomerycollege.edu"
+
+- trigger: ";umbc.e"
+  replace: "nnguye12@umbc.edu"
