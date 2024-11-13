@@ -90,3 +90,13 @@ matches:
     - ";5-stars"
     - ";5 stars"
     replace: "★★★★★"
+
+# arrows
+  - trigger: ";up"
+    replace: "↑"
+  - trigger: ";down"
+    replace: "↓"
+  - trigger: ";left"
+    replace: "←"
+  - trigger: ";right"
+    replace: "→"
