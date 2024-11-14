@@ -47,10 +47,10 @@ matches:
   - trigger: ";people"
     replace: "🫂"
 
-  - triggers: 
-     - ";fire"
-     - ";hot"
-    replace: "🔥"
+  # - triggers: 
+  #    - ";fire"
+  #    - ";hot"
+  #   replace: "🔥"
 
   - trigger: ";inbox"
     replace: "📩"
