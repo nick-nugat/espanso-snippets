@@ -6,8 +6,16 @@ matches:
     replace: "💀"
   - trigger: ";shrug"
     replace: "🤷‍♂️"
+
   - trigger: ";heart"
     replace: "♡"
+  - triggers:
+      - ";sheart"
+      - ";solidheart"
+      - ";solid-heart"
+      - ";s-heart"
+    replace: "♥" 
+  
   - trigger: ";eyes"
     replace: "👀"
   - trigger: ";moyai"
@@ -36,6 +44,8 @@ matches:
     replace: "😨"
   - trigger: ";scream"
     replace: "😱"
+  - trigger: ";speaking"
+    replace: "🗣️"
     
   - trigger: ";thought"
     replace: "💭"
@@ -47,10 +57,10 @@ matches:
   - trigger: ";people"
     replace: "🫂"
 
-  # - triggers: 
-  #    - ";fire"
-  #    - ";hot"
-  #   replace: "🔥"
+  - triggers: 
+     - ";fire"
+     - ";hot"
+    replace: "🔥"
 
   - trigger: ";inbox"
     replace: "📩"
